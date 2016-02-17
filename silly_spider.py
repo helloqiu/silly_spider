@@ -41,7 +41,7 @@ if __name__ == '__main__':
             if not active:
                 print "All work done!"
                 return
-            print "The core will sleep 0.1s"
+            # print "The core will sleep 0.1s"
             time.sleep(0.1)
 
     fly()
