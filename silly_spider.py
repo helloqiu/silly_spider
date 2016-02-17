@@ -26,7 +26,7 @@ if __name__ == '__main__':
     spider_core = core.Core(options.url)
     dog_set = set([])
 
-    for i in range(0, options.thread_num):
+    for i in range(0, int(options.thread_num)):
         spider_dog = dog.Dog(spider_core)
         print 'Init a Dog!'
         dog_set.add(spider_dog)
